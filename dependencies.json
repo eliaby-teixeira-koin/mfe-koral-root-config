@@ -1,0 +1,9 @@
+{
+   "imports": {
+     "@koin/root-config": "//localhost:9000/koin-root-config.js",
+     "@koin/appbase": "//localhost:8501/koin-appbase.js",
+     "@koin/app1": "//localhost:8500/koin-app1.js",
+     "@koin/app2": "//localhost:8502/koin-app2.js",
+     "@koin/app3": "//localhost:8503/koin-app3.js"
+   }
+}
