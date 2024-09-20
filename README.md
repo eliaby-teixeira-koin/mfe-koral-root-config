@@ -1,4 +1,6 @@
 ### poc de microfontend
+esse projeto utiliza o framework single-spa para implementação da arquitetura de MFE (micro frontend)
+
 ## como organizar o projeto
 - Criar uma pasta (por exemplo `/poc-mfe`), entrar na pasta e clonar os seguintes repositorios
 1. https://github.com/eliaby-teixeira-koin/app-root.git
