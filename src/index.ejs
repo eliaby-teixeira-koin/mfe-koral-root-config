@@ -5,11 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Koral | Root Config</title>
-  <!--
-    Remove this if you only support browsers that support async/await.
-    This is needed by babel to share largeish helper code for compiling async/await in older
-    browsers. More information at https://github.com/single-spa/create-single-spa/issues/112
-  -->
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,8 +52,8 @@
     {
       "imports": {
         "@koin/root-config": "//localhost:9000/koin-root-config.js",
-        "@koin/util-ui": "//localhost:8500/koin-mfe-koral-util-ui.js",
-        "@koin/app-login": "//localhost:8501/koin-mfe-koral-app-login.js"
+        "@koin/mfe-koral-util-ui": "//localhost:8500/koin-mfe-koral-util-ui.js",
+        "@koin/mfe-koral-app-login": "//localhost:8501/koin-mfe-koral-app-login.js"
       }
    }
   </script>

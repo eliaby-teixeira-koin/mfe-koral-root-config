@@ -1,15 +1,15 @@
 import {
   type LifeCycles,
-  getMountedApps,
+  getAppStatus,
   registerApplication,
   start,
-} from 'single-spa'
+} from 'single-spa';
 
 const applications = [
   {
-    name: '@koin/app-login',
-    source: '@koin/app-login',
-    route: ({ pathname }) => pathname === '/login',
+    name: 'mfe-koral-app-login',
+    source: '@koin/mfe-koral-app-login',
+    route: ({ pathname }) => pathname === '/',
   },
 ]
 
@@ -25,4 +25,6 @@ start({
   urlRerouteOnly: true,
 })
 
-console.log('Apps loaded: ', getMountedApps())
+applications.map(({ name }) => 
+  console.log(`${name}:`, getAppStatus(name))
+);
