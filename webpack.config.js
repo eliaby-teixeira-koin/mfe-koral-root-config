@@ -6,7 +6,7 @@ module.exports = (webpackConfigEnv, argv) => {
   const orgName = 'koin'
   const defaultConfig = singleSpaDefaults({
     orgName,
-    projectName: 'root-config',
+    projectName: 'mfe-koral-root-config',
     webpackConfigEnv,
     argv,
     disableHtmlGeneration: true,

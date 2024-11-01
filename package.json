@@ -1,5 +1,5 @@
 {
-  "name": "@koin/root-config",
+  "name": "@koin/mfe-koral-root-config",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
@@ -38,5 +38,5 @@
     "@types/webpack-env": "^1.16.2",
     "single-spa": "^5.9.3"
   },
-  "types": "dist/koin-root-config.d.ts"
+  "types": "dist/koin-mfe-koral-root-config.d.ts"
 }

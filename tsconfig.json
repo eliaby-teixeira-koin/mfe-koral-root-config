@@ -1,6 +1,6 @@
 {
   "extends": "ts-config-single-spa",
-  "files": ["src/koin-root-config.ts"],
+  "files": ["src/koin-mfe-koral-root-config.ts"],
   "compilerOptions": {
     "declarationDir": "dist"
   },
