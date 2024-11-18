@@ -9,6 +9,11 @@ const applications = [
   {
     name: 'mfe-koral-app-login',
     source: '@koin/mfe-koral-app-login',
+    route: ({ pathname }) => pathname === '/login',
+  },
+  {
+    name: 'mfe-koral-app-menu',
+    source: '@koin/mfe-koral-app-menu',
     route: ({ pathname }) => pathname === '/',
   },
 ]
